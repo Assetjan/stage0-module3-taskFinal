@@ -6,5 +6,6 @@ public class NumberReverter {
         int middle = ((number/10)%10)*10;
         int first = number/10;
         int sum = last + middle + first;
+        System.out.println(sum);
     }
 }
